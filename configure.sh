@@ -7,8 +7,8 @@ sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_gener
 # Hello World
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
-# luci-theme-infinityfreedom
-echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
+# luci-theme-argon
+echo 'src-git argon https://github.com/jerrykuku/luci-theme-argon.git' >>feeds.conf.default
 
 # passwall
 echo "src-git PWpackages https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
